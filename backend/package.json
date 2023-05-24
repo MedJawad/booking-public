@@ -2,10 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "type": "module",
+  "main": "app.mjs",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "start": "node --experimental-specifier-resolution=node app.mjs",
     "test": "jest"
   },
   "author": "",

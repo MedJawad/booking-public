@@ -1,6 +1,6 @@
 // user.test.js
-import { getUserById } from "./controllers/user-controller";
-import User from "./models/User";
+import { getUserById } from "./controllers/user-controller.js";
+import User from "./models/User.mjs";
 
 // Mock the User model and findById function
 jest.mock("./models/User");
